@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <POP.h>
 
 # define COLOR_LABEL    [UIColor whiteColor]
 
-@interface RRCustomPageController : UIViewController <UIScrollViewDelegate, POPAnimationDelegate>
+@interface RRCustomPageController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic, assign) BOOL clickScroll;
 @property (nonatomic, strong) UIScrollView *menuBar;

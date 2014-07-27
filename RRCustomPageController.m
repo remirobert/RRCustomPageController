@@ -69,14 +69,6 @@
     }
 }
 
-- (void)pop_animationDidStart:(POPAnimation *)anim {
-    animatedAnimation = YES;
-}
-
-- (void)pop_animationDidReachToValue:(POPAnimation *)anim {
-    animatedAnimation = NO;
-}
-
 - (void) initMenuBar {
     _menuBar.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width / 2.5 * [controllers count], 64);
     _menuBar.pagingEnabled = YES;
