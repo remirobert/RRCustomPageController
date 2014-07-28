@@ -7,9 +7,31 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+``` Objective-c
+#import "RRViewController.h"
+#import "RRCustomPageController.h"
+#import "RRPageController.h"
+#import "RRViewController1.h"
 
-## Requirements
+@interface RRViewController ()
+
+@end
+
+@implementation RRViewController
+
+- (void) viewDidAppear:(BOOL)animated {
+    RRViewController1 *c1 = [[RRViewController1 alloc] initWithTitle:@"title1"];
+    RRViewController1 *c2 = [[RRViewController1 alloc] initWithTitle:@"title2"];
+    RRViewController1 *c3 = [[RRViewController1 alloc] initWithTitle:@"title3"];
+    RRViewController1 *c4 = [[RRViewController1 alloc] initWithTitle:@"title4"];
+    
+    
+    RRCustomPageController *controller = [[RRCustomPageController alloc] initWithControllers:@[c1, c2, c3, c4]];
+  
+    controller.menuBar.backgroundColor = [UIColor colorWithRed:0.842 green:0.000 blue:0.000 alpha:1.000];
+    [self presentViewController:controller animated:NO completion:nil];
+}
+```
 
 ## Installation
 
