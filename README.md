@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/RRCustomPageController.svg?style=flat)](http://cocoadocs.org/docsets/RRCustomPageController)
 [![Platform](https://img.shields.io/cocoapods/p/RRCustomPageController.svg?style=flat)](http://cocoadocs.org/docsets/RRCustomPageController)
 
+![Alt text](https://raw.githubusercontent.com/remirobert/RRCustomPageController/master/ressources/record3.gif "Project Test")
+
 ## Usage
 
 ``` Objective-c
