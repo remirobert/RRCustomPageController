@@ -1,7 +1,0 @@
-
-target 'RRCustomPageController', :exclusive => true do
-  pod "RRCustomPageController", :path => "../"
-
-  pod 'Specta', '~> 0.2.1'
-  pod 'Expecta'
-end
