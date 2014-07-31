@@ -6,8 +6,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/RRCustomPageController.svg?style=flat)](http://cocoadocs.org/docsets/RRCustomPageController)
 
 ![Alt text](https://raw.githubusercontent.com/remirobert/RRCustomPageController/master/ressources/record3.gif "Project Test")
-
+====
 ## Usage
+
+Each UIViewControllers must inherit of RRPageController, and the init it with title or UIImage.
 
 ``` Objective-c
 #import "RRViewController.h"
